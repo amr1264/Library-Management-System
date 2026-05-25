@@ -1,4 +1,4 @@
-```markdown
+
 # 📚 Console Library Management System
 
 A robust, enterprise-architected Console Application built with **C#** and **.NET**. This project showcases high-level proficiency in **Object-Oriented Programming (OOP)**, input validation defenses, dynamic memory architectures, and fluent string algorithms.
@@ -71,6 +71,6 @@ Building this project wasn't just about writing syntax; it was a battle against 
  * [ ] **Phase 1:** Configure a relational **SQL Server Database**.
  * [ ] **Phase 2:** Inject **Entity Framework Core (EF Core)** for ORM.
  * [ ] **Phase 3:** Port logic into a modern **ASP.NET Core Web API** utilizing RESTful patterns.
-```
 
-```
+
+

@@ -1,3 +1,4 @@
+
 # 📚 Console Library Management System
 
 A robust, enterprise-architected Console Application built with **C#** and **.NET**. This project showcases high-level proficiency in **Object-Oriented Programming (OOP)**, input validation defenses, dynamic memory architectures, and fluent string algorithms.
@@ -48,7 +49,6 @@ classDiagram
     LibraryCard "1" --> "0..*" Book : Aggregation
     LibraryService ..> Library : Uses
     LibraryService ..> LibraryUser : Processes
-
 
 ### 🧠 Core OOP Implementation:
  * **Abstraction & Inheritance:** The abstract class User acts as the secure foundational blueprint for both Librarian and LibraryUser.

@@ -48,3 +48,5 @@ classDiagram
     LibraryCard "1" --> "0..*" Book : Aggregation
     LibraryService ..> Library : Uses
     LibraryService ..> LibraryUser : Processes
+
+    Core OOP Implementation:

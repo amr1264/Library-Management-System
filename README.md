@@ -1,4 +1,4 @@
-
+```markdown
 # 📚 Console Library Management System
 
 A robust, enterprise-architected Console Application built with **C#** and **.NET**. This project showcases high-level proficiency in **Object-Oriented Programming (OOP)**, input validation defenses, dynamic memory architectures, and fluent string algorithms.
@@ -50,6 +50,7 @@ classDiagram
     LibraryService ..> Library : Uses
     LibraryService ..> LibraryUser : Processes
 
+```
 ### 🧠 Core OOP Implementation:
  * **Abstraction & Inheritance:** The abstract class User acts as the secure foundational blueprint for both Librarian and LibraryUser.
  * **Composition (Has-A Relationship):** A LibraryUser strictly *has a* LibraryCard. The card instance lifecycle is bound directly to the user.
@@ -65,13 +66,13 @@ Building this project wasn't just about writing syntax; it was a battle against 
 ### 3. Defending the Runtime Environment (int.TryParse Pattern)
  * **The Challenge:** Direct reliance on Convert.ToInt32() or integer casts triggered severe app crashes whenever a user mistakenly or maliciously typed string letters into numeric menus.
  * **The Engineering Solution:** Replaced unstable typecasting with the conditional **int.TryParse()** framework paired with an isolated iterative query flow:
-   csharp
+   ```csharp
    int choice;
    while (!int.TryParse(Console.ReadLine(), out choice)) {
        Console.WriteLine("Invalid input execution. Numbers only.");
    }
    
-   
+   ```
    This cleanly catches formatting errors *before* the compiler triggers an exception.
 ### 4. Search Rigidity & String Normalization
  * **The Challenge:** Exact equality matches (==) forced users to guess the precise case and spacing of book titles, leading to false "Book Not Found" errors.
@@ -80,4 +81,9 @@ Building this project wasn't just about writing syntax; it was a battle against 
 This project serves as the foundational stepping stone for my transition into professional **.NET Backend Engineering**. The upcoming architectural phases will include:
  * [ ] **Phase 1:** Discarding transient in-memory lists and configuring a relational **SQL Server Database**.
  * [ ] **Phase 2:** Injecting **Entity Framework Core (EF Core)** to manage Object-Relational Mapping (ORM) and migrations.
- * [ ] **Phase 3:** Porting the logic from a Console UI into a modern **ASP.NET Core Web API** utilizing RESTful design pattern
+ * [ ] **Phase 3:** Porting the logic from a Console UI into a modern **ASP.NET Core Web API** utilizing RESTful design patterns.
+```
+
+
+
+```

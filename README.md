@@ -8,7 +8,7 @@ A robust, enterprise-architected Console Application built with **C#** and **.NE
 
 This system follows a clean **Service-Oriented Design**, strictly decoupling the Presentation Layer (UI) from the Core Business Logic.
 
-mermaid
+```mermaid
 classDiagram
     class User {
         <<Abstract>>
